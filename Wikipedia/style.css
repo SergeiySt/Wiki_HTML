@@ -21,6 +21,16 @@ div {
     margin-left: 0.5em
 }
 
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
 .vector-legacy-sidebar .vector-menu-portal {
     margin: 0 0.6em 0 0.7em;
     padding: 0.25em 0;
@@ -73,7 +83,7 @@ div {
 
 #p-logo {
     width: 10em;
-    height: 160px;
+    height: 200px;
     margin-bottom: 1em
 }
 
@@ -81,7 +91,7 @@ div {
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
-    width: 10em;
+    width: 12em;
     height: 160px;
     text-decoration: none
 }
@@ -109,6 +119,7 @@ div {
 }
 
 
+
 #mw-head {
     top: 0px !important;
 }
@@ -128,3 +139,15 @@ html {
 html,body {
     font-family: sans-serif
 }
+
+.menu{
+    padding: 0 10px;
+    float: left;
+    width: 200px;
+    background-color: #f6f6f6;
+    border-right: 2px solid #a7b7f9;
+    
+   }
+
+
+ 
