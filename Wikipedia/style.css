@@ -2,12 +2,9 @@ div {
     display: block;
 }
 
-
 .vector-legacy-sidebar {
     font-size: inherit
 }
-
-
 
 .vector-legacy-sidebar nav:first-child {
     background-image: none
@@ -79,8 +76,6 @@ ul {
     color: #0b0080
 }
 
-
-
 #p-logo {
     width: 10em;
     height: 200px;
@@ -118,8 +113,6 @@ ul {
     height: 5em
 }
 
-
-
 #mw-head {
     top: 0px !important;
 }
@@ -130,7 +123,6 @@ ul {
     right: 0;
     width: 100%
 }
-
 
 html {
     font-size: 100%
@@ -145,9 +137,50 @@ html,body {
     float: left;
     width: 200px;
     background-color: #f6f6f6;
-    border-right: 2px solid #a7b7f9;
-    
+    border-right: 1px solid #a7b7f9;
    }
 
+   .main2{
+        width: 426px;
+        /* 500 - 2*15 - 2*2- 2*20 = 426*/
+        padding: 15px;
+        border: 1px solid #a7b7f9;
+        margin: 20px;
+        float: left;
+        border-radius: 0 0 3px 3px;
+  }
 
- 
+
+  .mw-parser-output .main-block {
+    margin-top: 1.5rem;
+    padding: 1.25em 2em 1.5em;
+}
+
+.mw-parser-output .main-block {
+    border-radius: 3px;
+    border-top-left-radius: 5px 3px;
+    border-top-right-radius: 5px 3px;
+}
+
+.mw-parser-output .main-block {
+    width: 100%;
+    margin-top: 1rem;
+    border: 1px #d7d7d7 solid;
+    border-top: 3px #3366cc solid;
+    padding: 1em 1.25em 1.25em;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+.mw-parser-output .main-block-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+.mw-parser-output .main-block-content {
+    margin: 0.5em 0;
+}
